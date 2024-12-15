@@ -2,7 +2,7 @@ import heapq
 import math
 
 
-# Tính khoảng cách Euler giữa hai điểm (x1, y1) và (x2, y2)
+
 def euclidean_distance(a, b):
     return math.sqrt((a[0] - b[0]) ** 2 + (a[1] - b[1]) ** 2)
 
